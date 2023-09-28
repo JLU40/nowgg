@@ -1,0 +1,30 @@
+self.__BUILD_MANIFEST = function(s, c, a, e, t, d, n, i, u, f, o, b, h, r) {
+    return {
+        __rewrites: {
+            beforeFiles: [],
+            afterFiles: [{
+                source: n,
+                destination: n
+            }, {
+                source: i,
+                destination: i
+            }, {
+                source: "/play/404",
+                destination: "/play/notFoundScreen"
+            }, {
+                source: "/play/:path*",
+                destination: "/play"
+            }],
+            fallback: []
+        },
+        "/": [a, u, s, c, e, t, d, f, "static/chunks/pages/index-4bf3fb7d97159b89.js"],
+        "/_error": [a, s, e, t, d, "static/chunks/pages/_error-76d715d26d73c2df.js"],
+        "/apps/[dev-slug]/[id]/[pub-slug]": [a, o, b, u, "static/chunks/316-01003e2e1f0bbc01.js", s, c, e, t, "static/chunks/836-07e98420ec6ce570.js", h, d, "static/chunks/855-6f3d3be8840e825e.js", "static/chunks/853-44465f5092c56abe.js", f, "static/chunks/pages/apps/[dev-slug]/[id]/[pub-slug]-c2053cf311736580.js"],
+        "/browse": [a, o, b, s, c, t, h, "static/chunks/302-f52b0654d6376c90.js", "static/chunks/pages/browse-92b4231d00324265.js"],
+        "/notFoundScreen": [a, s, c, e, t, d, "static/chunks/pages/notFoundScreen-349245ab2be4cbc8.js"],
+        "/videos/watch/[videoId]": [s, c, e, r, "static/chunks/992-10e5fb49cc3c31fc.js", "static/chunks/pages/videos/watch/[videoId]-41fd0e28a5ee3fa9.js"],
+        "/videos/[channelHandle]": [s, c, r, "static/chunks/pages/videos/[channelHandle]-49d7456b70bda767.js"],
+        sortedPages: ["/", "/_app", "/_error", "/apps/[dev-slug]/[id]/[pub-slug]", "/browse", "/notFoundScreen", "/videos/watch/[videoId]", "/videos/[channelHandle]"]
+    }
+}("static/chunks/533-0e9351552dd0f8f5.js", "static/chunks/522-cbbba6439ca25afc.js", "static/chunks/873-a9f68a3d154a52d6.js", "static/chunks/64-4851ffb4208329ca.js", "static/chunks/847-20c5e3c38d9ace18.js", "static/chunks/387-118e3a25bc2aebff.js", "/play/browse", "/play/videos/:path*", "static/chunks/554-ed8cdbffbcb4ee8d.js", "static/chunks/406-8207a8e62f67ed5a.js", "static/css/3d0ae4c613f4697f.css", "static/chunks/5-f3bebff6e27e3e09.js", "static/chunks/640-60606b2bb2d8994e.js", "static/chunks/940-1b4044c22e6b5a7d.js"),
+self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB();
